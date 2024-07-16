@@ -2,14 +2,15 @@ package deanonymization
 
 import (
 	"fmt"
-	"github.com/s-rah/onionscan/config"
-	"github.com/s-rah/onionscan/model"
-	"github.com/s-rah/onionscan/report"
-	"github.com/s-rah/onionscan/utils"
 	"net"
 	"net/url"
 	"regexp"
 	"strings"
+
+	"github.com/harr1424/onionscan/config"
+	"github.com/harr1424/onionscan/model"
+	"github.com/harr1424/onionscan/report"
+	"github.com/harr1424/onionscan/utils"
 )
 
 // GetOnionLinks extracts links and urls from the current crawl

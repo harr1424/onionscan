@@ -3,9 +3,10 @@ package onionscan
 import (
 	"errors"
 	"fmt"
-	"github.com/s-rah/onionscan/report"
-	"github.com/s-rah/onionscan/utils"
 	"strings"
+
+	"github.com/harr1424/onionscan/report"
+	"github.com/harr1424/onionscan/utils"
 )
 
 // Pipeline is a construct for managing a set of crawls, analysis and output sinks

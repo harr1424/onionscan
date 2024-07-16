@@ -2,11 +2,11 @@ package protocol
 
 import (
 	"fmt"
-	"github.com/s-rah/onionscan/config"
-	"github.com/s-rah/onionscan/report"
+	"github.com/harr1424/onionscan/config"
+	"github.com/harr1424/onionscan/report"
 
-	"github.com/s-rah/onionscan/spider"
-	"github.com/s-rah/onionscan/utils"
+	"github.com/harr1424/onionscan/spider"
+	"github.com/harr1424/onionscan/utils"
 	"net/http"
 )
 

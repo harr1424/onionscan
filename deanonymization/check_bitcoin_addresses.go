@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"crypto/sha256"
 	"errors"
-	"github.com/s-rah/onionscan/config"
-	"github.com/s-rah/onionscan/report"
+	"github.com/harr1424/onionscan/config"
+	"github.com/harr1424/onionscan/report"
 	"regexp"
 	"strings"
 )
